@@ -34,7 +34,7 @@ def chat(request: ChatRequest):
 @api.get("/")
 def root():
     return {
-        "message": "AURA-CX backend is running",
+        "message": "Autonomous Commerce Agent Platform backend is running",
         "usage": {
             "chat": "POST /chat",
             "docs": "/docs"
